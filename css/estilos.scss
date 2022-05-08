@@ -1,19 +1,11 @@
-*{
-    /* outline: 1px solid red; */
-    padding: 0;
-    margin: 0;
-}
-
-
 .container-fluid{
-    /* background-color: beige; */
     min-height: 700px;
     min-width: 400px;
     max-height: 1200px;
 }
 
-.container-fluid > div{
-    /* margin: 30px; */
+.container-fluid div{
+    margin: 30px;
     padding: 10px;
 }
 
@@ -23,20 +15,20 @@
 }
 
 #logo{
-        /* background-color: #085394; */
-        display: flex;
-        height: 50px;
-        width: 100%;
-        font-size: 50px;
-        color: #085394;
-        justify-content: center;
-        align-items: center ;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    font-size: 50px;
+    color: #085394;
+    justify-content: center;
+    align-items: center ;
 }
 
 #carouselExampleCaptions{
     border: 2px solid black;
     border-radius: 5px;
 }
+
 .texto-negro{
     color: black;
 }
@@ -50,15 +42,15 @@
     justify-content: center;
 }
 
-.flexbox > div{
+.flexbox div{
     margin: 15px;
 }
 
-.flexbox > h2{
+.flexbox h2{
     color: #085394;
 }
 
-.flexbox > p{
+.flexbox p{
     padding: 30px;
 }
 
@@ -84,4 +76,3 @@
     height: 800px;
     /* align-items: center; */
 }
-/*# sourceMappingURL=estilos.css.map */
